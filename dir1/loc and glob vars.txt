@@ -1,0 +1,34 @@
+Global and Local variables
+
+There are two types of variables: global variables and local variables.
+
+Local variables:
+
+A variable declared inside the function's body or in the local scope is known as a local variable.
+
+ex:
+
+def sum():
+    x = float(input("Enter the number1: "))
+    y = float(input("Enter the number2: "))
+    sum = x + y
+    return sum
+
+print(sum())
+
+Global variables:
+
+In Python, a variable declared outside of the function or in global scope is known as a global variable.
+This means that a global variable can be accessed inside or outside of the function.
+
+ex:
+
+z = 10
+
+def func():
+    global z
+    z = z + 1
+    print(z)
+
+func()
+print(z)

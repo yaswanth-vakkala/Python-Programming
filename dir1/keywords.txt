@@ -1,0 +1,22 @@
+Keywords are the reserved words in Python. We cannot use a keyword as a variable name, function name or any other identifier.
+They are used to define the syntax and structure of the Python language.
+
+Below are the key words in python:
+
+False               def                 if                  raise
+None                del                 import              return
+True                elif                in                  try
+and                 else                is                  while
+as                  except              lambda              with
+assert              finally             nonlocal            yield
+break               for                 not
+class               from                or
+continue            global              pass
+
+How to check if a world is keyword or not :
+
+import keyword
+
+keyword.iskeyword(s) - it returns true if the given word is a keyword
+
+keyword.kwlist - to print the list of keywords
